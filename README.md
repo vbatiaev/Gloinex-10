@@ -18,7 +18,7 @@ It's a static site (plain HTML/CSS/JS) with no build step, database, or server, 
 index.html              All page content (sections 1–6)
 assets/css/style.css    Styles & colours (palette variables at the top under :root)
 assets/js/main.js       Animations, globe, interactions
-assets/img/             Logo (gloinex-logo.jpg), header logo (gloinex-header-logo.png), favicon.svg
+assets/img/             Logo (gloinex-logo.jpg), header logo (gloinex-logo-horizontal.png), favicon.svg
 vercel.json             Hosting config
 ```
 
@@ -29,7 +29,7 @@ All text lives in `index.html`; each section is marked with a comment like `<!--
 - **Add/remove a product category:** in the *Products & Industries* section, copy or delete one `<li class="tile">…</li>` block. The grid adjusts automatically.
 - **Contact details:** search `index.html` for `917083033528` (WhatsApp, 3 places), `batiaev@gloinex.com` (email), and `t.me/globalindianexport` (Telegram).
 - **Colours:** edit the variables at the top of `assets/css/style.css` (`--saffron`, `--bg`, etc.).
-- **Header logo:** the top nav shows `assets/img/gloinex-header-logo.png`, the GX mark with the GLOINEX wordmark beside it on the right, cropped from the main logo (no underline or tagline) on a transparent background. It displays 32px tall (28px on phones). Size is set by `.brand-logo` in `style.css`.
+- **Header logo:** the top nav shows `assets/img/gloinex-logo-horizontal.png`, the GX mark with the GLOINEX wordmark beside it on the right, cropped from the main logo (no underline or tagline) on a transparent background. It displays 30px tall (26px on phones), close to the original 34px icon and 15px text. If you replace it, use a new filename: `/assets` files are cached by browsers for 7 days (see `vercel.json`), so reusing a name can leave visitors seeing the old image. Size is set by `.brand-logo` in `style.css`; after editing CSS or JS, bump the `?v=` number on their links in `index.html` for the same reason.
 - **Logo:** replace `assets/img/gloinex-logo.jpg` (keep the same filename).
 
 Committing to `main` on GitHub redeploys the site on Vercel automatically.
