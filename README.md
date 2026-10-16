@@ -18,7 +18,7 @@ It's a static site (plain HTML/CSS/JS) with no build step, database, or server, 
 index.html              All page content (sections 1–6)
 assets/css/style.css    Styles & colours (palette variables at the top under :root)
 assets/js/main.js       Animations, globe, interactions
-assets/img/             Logo (gloinex-logo.jpg) and favicon.svg
+assets/img/             Logo (gloinex-logo.jpg), header logo (gloinex-header-logo.png), favicon.svg
 vercel.json             Hosting config
 ```
 
@@ -29,7 +29,7 @@ All text lives in `index.html`; each section is marked with a comment like `<!--
 - **Add/remove a product category:** in the *Products & Industries* section, copy or delete one `<li class="tile">…</li>` block. The grid adjusts automatically.
 - **Contact details:** search `index.html` for `917083033528` (WhatsApp, 3 places), `batiaev@gloinex.com` (email), and `t.me/globalindianexport` (Telegram).
 - **Colours:** edit the variables at the top of `assets/css/style.css` (`--saffron`, `--bg`, etc.).
-- **Header:** the top nav shows the logo mark only (no wordmark text); edit the `<a class="brand">` SVG in `index.html` to change it.
+- **Header logo:** the top nav shows `assets/img/gloinex-header-logo.png`, the GX mark and GLOINEX wordmark cropped from the main logo (no underline or tagline) on a transparent background. Size is set by `.brand-logo` in `style.css`.
 - **Logo:** replace `assets/img/gloinex-logo.jpg` (keep the same filename).
 
 Committing to `main` on GitHub redeploys the site on Vercel automatically.
