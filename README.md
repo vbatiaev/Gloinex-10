@@ -27,8 +27,9 @@ All text lives in `index.html`; each section is marked with a comment like `<!--
 
 - **Change text:** edit the words directly in `index.html`.
 - **Add/remove a product category:** in the *Products & Industries* section, copy or delete one `<li class="tile">…</li>` block. The grid adjusts automatically.
-- **Contact details:** search `index.html` for `917083033528` (WhatsApp, 3 places), `vbatiaev@gmail.com` (email), and `t.me/globalindianexport` (Telegram).
+- **Contact details:** search `index.html` for `917083033528` (WhatsApp, 3 places), `batiaev@gloinex.com` (email), and `t.me/globalindianexport` (Telegram).
 - **Colours:** edit the variables at the top of `assets/css/style.css` (`--saffron`, `--bg`, etc.).
+- **Header:** the top nav shows the logo mark only (no wordmark text); edit the `<a class="brand">` SVG in `index.html` to change it.
 - **Logo:** replace `assets/img/gloinex-logo.jpg` (keep the same filename).
 
 Committing to `main` on GitHub redeploys the site on Vercel automatically.
