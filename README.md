@@ -29,7 +29,7 @@ All text lives in `index.html`; each section is marked with a comment like `<!--
 - **Add/remove a product category:** in the *Products & Industries* section, copy or delete one `<li class="tile">…</li>` block. The grid adjusts automatically.
 - **Contact details:** search `index.html` for `917083033528` (WhatsApp, 3 places), `batiaev@gloinex.com` (email), and `t.me/globalindianexport` (Telegram).
 - **Colours:** edit the variables at the top of `assets/css/style.css` (`--saffron`, `--bg`, etc.).
-- **Header logo:** the top nav shows `assets/img/gloinex-header-logo.png`, the GX mark and GLOINEX wordmark cropped from the main logo (no underline or tagline) on a transparent background. Size is set by `.brand-logo` in `style.css`.
+- **Header logo:** the top nav shows `assets/img/gloinex-header-logo.png`, the GX mark with the GLOINEX wordmark beside it on the right, cropped from the main logo (no underline or tagline) on a transparent background. It displays 32px tall (28px on phones). Size is set by `.brand-logo` in `style.css`.
 - **Logo:** replace `assets/img/gloinex-logo.jpg` (keep the same filename).
 
 Committing to `main` on GitHub redeploys the site on Vercel automatically.
